@@ -35,7 +35,7 @@ def calculateRepeatedHouses(moves):
         house = House(x, y)
         if house in houses:
             if houses[house] == 1:
-               houses[house] += 1
+                houses[house] += 1
         else:
             houses[house] = 1
 
