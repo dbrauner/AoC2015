@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff7a47d-9b06-4a3b-aafe-458b18305fc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/BobbyWires.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AoC2015.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AoC2015.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/LookAndSay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/PasswordGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/Matchsticks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/TravelAssistant.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/PresentDelivery.py" beforeDir="false" afterPath="$PROJECT_DIR$/day3/PresentDelivery.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +17,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AoC2015$NotQuiteLisp__1_.coverage" NAME="NotQuiteLisp (1) Coverage Results" MODIFIED="1543184905506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
     <SUITE FILE_PATH="coverage/AoC2015$NotQuiteLisp.coverage" NAME="NotQuiteLisp Coverage Results" MODIFIED="1543183479934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/AoC2015$TravelAssistant.coverage" NAME="TravelAssistant Coverage Results" MODIFIED="1543452800815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
+    <SUITE FILE_PATH="coverage/AoC2015$PasswordGenerator.coverage" NAME="PasswordGenerator Coverage Results" MODIFIED="1543621727951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/AoC2015$LightsGrid.coverage" NAME="LightsGrid Coverage Results" MODIFIED="1543281833051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/AoC2015$Matchsticks.coverage" NAME="Matchsticks Coverage Results" MODIFIED="1543438527230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day8" />
     <SUITE FILE_PATH="coverage/AoC2015$BobbyWires.coverage" NAME="BobbyWires Coverage Results" MODIFIED="1543371865467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day7" />
     <SUITE FILE_PATH="coverage/AoC2015$NoMath.coverage" NAME="NoMath Coverage Results" MODIFIED="1543187412441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
+    <SUITE FILE_PATH="coverage/AoC2015$LookAndSay.coverage" NAME="LookAndSay Coverage Results" MODIFIED="1543534442686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/AoC2015$PresentDelivery.coverage" NAME="PresentDelivery Coverage Results" MODIFIED="1543192411745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/AoC2015$MD5Mining.coverage" NAME="MD5Mining Coverage Results" MODIFIED="1543230570718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
     <SUITE FILE_PATH="coverage/AoC2015$NiceStrings.coverage" NAME="NiceStrings Coverage Results" MODIFIED="1543272517072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
@@ -28,11 +32,13 @@
     <session id="-681730824">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.102" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,24 +46,25 @@
           <entry key="NotQuiteLisp" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="16" />
-          <entry key="txt" value="5" />
+          <entry key="py" value="23" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="17" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="NotQuiteLisp" value="82" />
+          <entry key="PasswordGenerator" value="2" />
           <entry key="dummy" value="23" />
           <entry key="gitignore" value="6" />
           <entry key="md" value="797" />
-          <entry key="py" value="4758" />
+          <entry key="py" value="8323" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -65,7 +72,7 @@
         <counts>
           <entry key="Markdown" value="797" />
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="4840" />
+          <entry key="Python" value="8407" />
         </counts>
       </usages-collector>
     </session>
@@ -73,46 +80,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day3/PresentDelivery.py">
+        <entry file="file://$PROJECT_DIR$/day9/TravelAssistant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="918">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
-                <marker date="1543317070652" expanded="true" signature="343:1730" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day7/BobbyWires.py">
+        <entry file="file://$PROJECT_DIR$/day10/LookAndSay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="324">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
-                <marker date="1543370981181" expanded="true" signature="193:277" ph="..." />
-                <marker date="1543370981181" expanded="true" signature="1947:2061" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/day11/PasswordGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="300">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+                <marker date="1543621727922" expanded="true" signature="358:504" ph="..." />
+                <marker date="1543621727922" expanded="true" signature="528:533" ph="..." />
+                <marker date="1543621727922" expanded="true" signature="725:728" ph="..." />
+                <marker date="1543621727922" expanded="true" signature="1137:1233" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/operator.py">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-200660393/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="78" column="7" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="7" />
+            <state relative-caret-position="189">
+              <caret line="2865" column="34" selection-start-line="2865" selection-start-column="26" selection-end-line="2865" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day8/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1638">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -120,21 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day7/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
+            <state relative-caret-position="972">
               <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day4/MD5Mining.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-                <marker date="1543230658703" expanded="true" signature="431:433" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day5/NiceStrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+            <state relative-caret-position="1044">
+              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
                 <marker date="1543272546954" expanded="true" signature="99:270" ph="..." />
@@ -156,32 +172,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day6/LightsGrid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-                <marker date="1543281822435" expanded="true" signature="105:2435" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day6/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5004">
-              <caret line="278" column="13" lean-forward="true" selection-start-line="278" selection-start-column="13" selection-end-line="278" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="252">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28314">
+              <caret line="1573" selection-start-line="1573" selection-end-line="1573" />
             </state>
           </provider>
         </entry>
@@ -203,13 +206,20 @@
       <find>lf</find>
       <find>jj</find>
       <find>i</find>
-      <find>i</find>
       <find>h</find>
       <find>1</find>
       <find>not</find>
-      <find>1</find>
       <find>-&gt; b</find>
+      <find />
+      <find>\x</find>
+      <find>utf</find>
+      <find>add</find>
+      <find>or</find>
+      <find>value of</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\i844796\PycharmProjects\AoC2015</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -232,6 +242,11 @@
         <option value="$PROJECT_DIR$/day7/BobbyWires.py" />
         <option value="$PROJECT_DIR$/day7/input.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/day8/input.txt" />
+        <option value="$PROJECT_DIR$/day8/Matchsticks.py" />
+        <option value="$PROJECT_DIR$/day9/TravelAssistant.py" />
+        <option value="$PROJECT_DIR$/day10/LookAndSay.py" />
+        <option value="$PROJECT_DIR$/day11/PasswordGenerator.py" />
       </list>
     </option>
   </component>
@@ -242,7 +257,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="916" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -264,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,43 +290,32 @@
             <path>
               <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
               <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
-              <item name="day4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
-              <item name="day5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
-              <item name="day6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
               <item name="day7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
+              <item name="day8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
+              <item name="day9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
+              <item name="day11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BobbyWires">
+  <component name="RunManager" selected="Python.PasswordGenerator">
     <configuration name="BobbyWires" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -359,7 +364,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LightsGrid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LookAndSay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,21 +372,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/LightsGrid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/LookAndSay.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MD5Mining" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Matchsticks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,43 +394,40 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/MD5Mining.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day8/Matchsticks.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NiceStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PasswordGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day5/NiceStrings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/PasswordGenerator.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PresentDelivery" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TravelAssistant" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,14 +435,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/PresentDelivery.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9/TravelAssistant.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -470,19 +472,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.PresentDelivery" />
-      <item itemvalue="Python.MD5Mining" />
-      <item itemvalue="Python.NiceStrings" />
-      <item itemvalue="Python.LightsGrid" />
       <item itemvalue="Python.BobbyWires" />
+      <item itemvalue="Python.Matchsticks" />
+      <item itemvalue="Python.TravelAssistant" />
+      <item itemvalue="Python.LookAndSay" />
+      <item itemvalue="Python.PasswordGenerator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PasswordGenerator" />
+        <item itemvalue="Python.LookAndSay" />
+        <item itemvalue="Python.TravelAssistant" />
+        <item itemvalue="Python.Matchsticks" />
         <item itemvalue="Python.BobbyWires" />
-        <item itemvalue="Python.LightsGrid" />
-        <item itemvalue="Python.NiceStrings" />
-        <item itemvalue="Python.MD5Mining" />
-        <item itemvalue="Python.PresentDelivery" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +505,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -517,14 +519,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,14 +658,53 @@
           <line>75</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day8/Matchsticks.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day8/Matchsticks.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day9/TravelAssistant.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day9/TravelAssistant.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day9/TravelAssistant.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day9/TravelAssistant.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day9/TravelAssistant.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day10/LookAndSay.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day11/PasswordGenerator.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="signals" language="Python" />
-        <watch expression="signals." language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -774,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5742">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day3/PresentDelivery.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -806,14 +840,7 @@
     <entry file="file://$PROJECT_DIR$/day6/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5004">
-          <caret line="278" column="13" lean-forward="true" selection-start-line="278" selection-start-column="13" selection-end-line="278" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-200660393/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="3093" column="14" selection-start-line="3093" selection-start-column="12" selection-end-line="3093" selection-end-column="15" />
+          <caret line="278" column="13" selection-start-line="278" selection-start-column="13" selection-end-line="278" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -835,10 +862,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day7/BobbyWires.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1543370981181" expanded="true" signature="193:277" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4788">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day8/Matchsticks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+            <marker date="1543439069062" expanded="true" signature="118:1417" ph="..." />
+            <marker date="1543439069062" expanded="true" signature="1438:1683" ph="..." />
+            <marker date="1543439069062" expanded="true" signature="1573:1683" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/TravelAssistant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/LookAndSay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day8/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day5/NiceStrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        <state relative-caret-position="1044">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
             <marker date="1543272546954" expanded="true" signature="99:270" ph="..." />
@@ -851,34 +949,36 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="252">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day7/input.txt">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="28314">
+          <caret line="1573" selection-start-line="1573" selection-end-line="1573" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day7/BobbyWires.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-200660393/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="189">
+          <caret line="2865" column="34" selection-start-line="2865" selection-start-column="26" selection-end-line="2865" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/PasswordGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
-            <marker date="1543370981181" expanded="true" signature="193:277" ph="..." />
-            <marker date="1543370981181" expanded="true" signature="1947:2061" ph="..." />
+            <marker date="1543621727922" expanded="true" signature="358:504" ph="..." />
+            <marker date="1543621727922" expanded="true" signature="528:533" ph="..." />
+            <marker date="1543621727922" expanded="true" signature="725:728" ph="..." />
+            <marker date="1543621727922" expanded="true" signature="1137:1233" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
