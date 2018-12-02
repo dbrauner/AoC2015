@@ -9,7 +9,7 @@ import sys
 
 def calculateOrder(arr):
     order = 0
-    ribbon = 0;
+    ribbon = 0
     for line in arr:
         order += wrappingPaper(line) + slackSize(line)
         ribbon += ribbonSize(line)
