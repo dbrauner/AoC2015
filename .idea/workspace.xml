@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff7a47d-9b06-4a3b-aafe-458b18305fc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day14/ReindeerOlympics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/CookieRecipe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/AuntSue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/Eggnog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +23,7 @@
     <SUITE FILE_PATH="coverage/AoC2015$NotQuiteLisp__1_.coverage" NAME="NotQuiteLisp (1) Coverage Results" MODIFIED="1543184905506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
     <SUITE FILE_PATH="coverage/AoC2015$NotQuiteLisp.coverage" NAME="NotQuiteLisp Coverage Results" MODIFIED="1543183479934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
     <SUITE FILE_PATH="coverage/AoC2015$DinnerTable.coverage" NAME="DinnerTable Coverage Results" MODIFIED="1543748255096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/AoC2015$Eggnog.coverage" NAME="Eggnog Coverage Results" MODIFIED="1544005808334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
     <SUITE FILE_PATH="coverage/AoC2015$AuntSue.coverage" NAME="AuntSue Coverage Results" MODIFIED="1543891405065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16" />
     <SUITE FILE_PATH="coverage/AoC2015$LightsGrid.coverage" NAME="LightsGrid Coverage Results" MODIFIED="1543281833051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/AoC2015$Matchsticks.coverage" NAME="Matchsticks Coverage Results" MODIFIED="1543438527230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day8" />
@@ -37,14 +36,15 @@
     <session id="-681730824">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,15 +52,15 @@
           <entry key="NotQuiteLisp" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="55" />
-          <entry key="txt" value="15" />
+          <entry key="py" value="60" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="56" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -70,7 +70,7 @@
           <entry key="dummy" value="28" />
           <entry key="gitignore" value="6" />
           <entry key="md" value="797" />
-          <entry key="py" value="13978" />
+          <entry key="py" value="15453" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
@@ -78,58 +78,50 @@
         <counts>
           <entry key="Markdown" value="797" />
           <entry key="PLAIN_TEXT" value="53" />
-          <entry key="Python" value="14062" />
+          <entry key="Python" value="15537" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day14/ReindeerOlympics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" lean-forward="true" selection-end-line="4" />
-              <folding>
-                <marker date="1543799669921" expanded="true" signature="363:675" ph="..." />
-                <marker date="1543799669921" expanded="true" signature="707:1515" ph="..." />
-                <marker date="1543799669921" expanded="true" signature="986:1515" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day15/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day15/CookieRecipe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-              <folding>
-                <marker date="1543888508691" expanded="true" signature="86:1021" ph="..." />
-                <marker date="1543888508691" expanded="true" signature="1037:2088" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day17/Eggnog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+                <marker date="1544005808299" expanded="true" signature="151:609" ph="..." />
+                <marker date="1544005808299" expanded="true" signature="606:609" ph="..." />
+                <marker date="1544005808299" expanded="true" signature="626:1579" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-200660393/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68148">
+              <caret line="3786" column="6" selection-start-line="3786" selection-start-column="6" selection-end-line="3786" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/input.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day16/AuntSue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="88" column="96" selection-start-line="88" selection-start-column="96" selection-end-line="88" selection-end-column="96" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-end-line="1" />
               <folding>
-                <element signature="e#16#26#0" expanded="true" />
-                <marker date="1543891713877" expanded="true" signature="213:218" ph="..." />
-                <marker date="1543891713877" expanded="true" signature="516:3446" ph="..." />
+                <marker date="1543930113710" expanded="true" signature="241:246" ph="..." />
+                <marker date="1543930113710" expanded="true" signature="544:3473" ph="..." />
               </folding>
             </state>
           </provider>
@@ -138,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day2/NoMath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state>
+              <caret selection-end-line="7" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
                 <marker date="1543747534400" expanded="true" signature="349:835" ph="..." />
@@ -149,54 +141,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day3/PresentDelivery.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-                <marker date="1543317070652" expanded="true" signature="343:1730" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day16/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day7/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day7/BobbyWires.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1548">
-              <caret line="86" lean-forward="true" selection-start-line="83" selection-end-line="86" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-                <marker date="1543370981181" expanded="true" signature="193:277" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day1/NotQuiteLisp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="55" />
+            <state relative-caret-position="342">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -239,6 +187,7 @@
       <find>max</find>
       <find>reindeers['Comet']</find>
       <find>cars</find>
+      <find>map</find>
     </findStrings>
     <replaceStrings>
       <replace>reindeer</replace>
@@ -287,6 +236,8 @@
         <option value="$PROJECT_DIR$/day15/CookieRecipe.py" />
         <option value="$PROJECT_DIR$/day16/input.txt" />
         <option value="$PROJECT_DIR$/day16/AuntSue.py" />
+        <option value="$PROJECT_DIR$/day17/input.txt" />
+        <option value="$PROJECT_DIR$/day17/Eggnog.py" />
       </list>
     </option>
   </component>
@@ -320,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,11 +359,15 @@
               <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
               <item name="day16" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AoC2015" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoC2015" type="462c0819:PsiDirectoryNode" />
+              <item name="day17" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -437,11 +393,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AuntSue">
+  <component name="RunManager" selected="Python.Eggnog">
     <configuration name="AuntSue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day16" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -461,6 +420,9 @@
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -498,20 +460,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FrequencyChange" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Eggnog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AoC2015" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-day1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day17" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-day1/FrequencyChange.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day17/Eggnog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -565,19 +524,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FrequencyChange" />
       <item itemvalue="Python.DinnerTable" />
       <item itemvalue="Python.ReindeerOlympics" />
       <item itemvalue="Python.CookieRecipe" />
       <item itemvalue="Python.AuntSue" />
+      <item itemvalue="Python.Eggnog" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Eggnog" />
         <item itemvalue="Python.AuntSue" />
         <item itemvalue="Python.CookieRecipe" />
         <item itemvalue="Python.ReindeerOlympics" />
         <item itemvalue="Python.DinnerTable" />
-        <item itemvalue="Python.FrequencyChange" />
       </list>
     </recent_temporary>
   </component>
@@ -606,7 +565,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -844,9 +803,14 @@
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day16/AuntSue.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="82" />
+          <url>file://$PROJECT_DIR$/day17/Eggnog.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day17/Eggnog.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1000,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-200660393/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="2841" column="8" selection-start-line="2841" selection-start-column="8" selection-end-line="2841" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1021,13 +978,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018-day1/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="732" column="2" lean-forward="true" selection-start-line="732" selection-start-column="2" selection-end-line="732" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-day1/input.txt" />
     <entry file="file://$PROJECT_DIR$/2018-day1/FrequencyChange.py" />
     <entry file="file://$PROJECT_DIR$/day12/AbacusFramework.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1172,7 +1123,7 @@
     <entry file="file://$PROJECT_DIR$/day14/ReindeerOlympics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
+          <caret line="4" selection-end-line="4" />
           <folding>
             <marker date="1543799669921" expanded="true" signature="363:675" ph="..." />
             <marker date="1543799669921" expanded="true" signature="707:1515" ph="..." />
@@ -1190,57 +1141,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day15/CookieRecipe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="1278">
           <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-          <folding>
-            <marker date="1543888508691" expanded="true" signature="86:1021" ph="..." />
-            <marker date="1543888508691" expanded="true" signature="1037:2088" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day7/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day7/BobbyWires.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1548">
-          <caret line="86" lean-forward="true" selection-start-line="83" selection-end-line="86" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-            <marker date="1543370981181" expanded="true" signature="193:277" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/NotQuiteLisp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="55" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/NoMath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-            <marker date="1543747534400" expanded="true" signature="349:835" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day3/PresentDelivery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="612">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
@@ -1256,14 +1164,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day7/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/BobbyWires.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="86" selection-start-line="83" selection-end-line="86" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+            <marker date="1543370981181" expanded="true" signature="193:277" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-200660393/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68148">
+          <caret line="3786" column="6" selection-start-line="3786" selection-start-column="6" selection-end-line="3786" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day16/AuntSue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="88" column="96" selection-start-line="88" selection-start-column="96" selection-end-line="88" selection-end-column="96" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-end-line="1" />
           <folding>
-            <element signature="e#16#26#0" expanded="true" />
-            <marker date="1543891713877" expanded="true" signature="213:218" ph="..." />
-            <marker date="1543891713877" expanded="true" signature="516:3446" ph="..." />
+            <marker date="1543930113710" expanded="true" signature="241:246" ph="..." />
+            <marker date="1543930113710" expanded="true" signature="544:3473" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/NotQuiteLisp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day2/NoMath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+            <marker date="1543747534400" expanded="true" signature="349:835" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/Eggnog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+            <marker date="1544005808299" expanded="true" signature="151:609" ph="..." />
+            <marker date="1544005808299" expanded="true" signature="606:609" ph="..." />
+            <marker date="1544005808299" expanded="true" signature="626:1579" ph="..." />
           </folding>
         </state>
       </provider>
